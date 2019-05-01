@@ -1,21 +1,15 @@
 import React from "react";
-import * as X from "./X";
-import * as Z from "./Z";
+import X from "./X";
+import Y from "./Y";
 import styled from "styled-components";
 
-const StyledDiv = styled.div`
+const StyledDivBlablabla = styled.div`
   border: 1px solid red;
   background-color: green;
   margin: 20px;
   padding: 20px;
 `;
 
-function App() {
-  return (
-    <div className="App">
-        <StyledDiv>blablabla</StyledDiv>
-    </div>
-  );
-}
+const App = () => <StyledDivBlablabla>blablabla</StyledDivBlablabla>;
 
 export default App;
